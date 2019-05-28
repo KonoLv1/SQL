@@ -19,8 +19,20 @@
 
 * テーブルの作成を行う。
 
-`create table emp3(
- employee_id number(6),
- first_name varchar2(20),
- constraint emp3_emp_id_pk primary key (employee_id)
-);`
+`create table emp3(<br>
+ employee_id number(6),<br>
+ first_name varchar2(20),<br>
+ constraint emp3_emp_id_pk primary key (employee_id)<br>
+);`<br>
+
+
+
+`create table vendors (<br>
+ vendor_id number(3) constraint vendors_vendor_id_pk primary key,<br>
+ vendor_name varchar2(50) constraint vendors_vendor_name_nn not null<br>
+);`<br>
+
+* データの追加を行う。
+
+`insert into vendors values(515, 'ふにゃらもろけ株式会社');`<br>
+
