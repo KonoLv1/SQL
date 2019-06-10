@@ -1,5 +1,9 @@
 ## 2019/06/10
 
+### CREATE TABLE テーブルを作成する
+
+### CREATE VIEW ビューを作成する
+
 * **入力**
 
 CREATE VIEW empvu80 <br>
