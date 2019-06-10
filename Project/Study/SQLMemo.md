@@ -30,3 +30,13 @@ from user_constraints; <br>
 
 ビューが作成されました。
 
+* **入力**
+
+select * from constcheck;
+
+* **入力**
+
+select * from constcheck <br>
+where table_name like '%EMP%'; <br>
+
+where句を後付け可能（例はEMPが含まれるものの抽出）
