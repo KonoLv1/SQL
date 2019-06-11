@@ -2,13 +2,21 @@
 
 ## SELECT（検索）
 
-* **SELECT**
+* **SELECT（行を選択する）**
 
-選択
+全ての行を選択する
 
-* **FROM**
+```Oracle SQL
+SELECT *
+```
 
-参照する表を選択する。
+* **FROM（表を選択する**
+
+gamedate表を選択する
+
+```Oracle SQL
+FROM gamedate
+```
 
 * **WHERE**
 
