@@ -18,9 +18,16 @@ gamedate表を選択する
 FROM gamedate
 ```
 
-* **WHERE**
+* **WHERE（条件）**
 
-条件
+Lvが20以上のデータを抽出する
+
+```Oracle SQL
+WHERE Lv >= 20;
+```
+
+
+
 
 * **ORDER BY**
 
