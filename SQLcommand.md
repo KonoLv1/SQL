@@ -24,6 +24,19 @@
 
 ## DELETE（削除）
 
+* **DROP**
+
+削除する（ゴミ箱へ）
+
+```Oracle SQL
+DROP TABLE gamedate CASCADE CONSTRAINTS;
+```
+
+削除する（完全に）
+
+```Oracle SQL
+DROP TABLE gamedate PURGE;
+```
 
 
 # Word
